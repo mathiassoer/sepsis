@@ -14,6 +14,10 @@
 		C734DCFD1F698573004372D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C734DCFB1F698573004372D2 /* LaunchScreen.storyboard */; };
 		C734DD081F698573004372D2 /* QSOFA_newTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DD071F698573004372D2 /* QSOFA_newTests.swift */; };
 		C734DD131F698573004372D2 /* QSOFA_newUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DD121F698573004372D2 /* QSOFA_newUITests.swift */; };
+		C734DD211F698649004372D2 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DD201F698649004372D2 /* secondViewController.swift */; };
+		C734DD231F698F63004372D2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DD221F698F63004372D2 /* ThirdViewController.swift */; };
+		C734DD251F6995BC004372D2 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DD241F6995BC004372D2 /* ForthViewController.swift */; };
+		C734DDD91F6DBA76004372D2 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734DDD81F6DBA76004372D2 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C734DD0E1F698573004372D2 /* QSOFA_newUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSOFA_newUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C734DD121F698573004372D2 /* QSOFA_newUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSOFA_newUITests.swift; sourceTree = "<group>"; };
 		C734DD141F698573004372D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C734DD201F698649004372D2 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		C734DD221F698F63004372D2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C734DD241F6995BC004372D2 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		C734DDD81F6DBA76004372D2 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				C734DCF21F698573004372D2 /* AppDelegate.swift */,
 				C734DCF41F698573004372D2 /* ViewController.swift */,
+				C734DD201F698649004372D2 /* secondViewController.swift */,
+				C734DD221F698F63004372D2 /* ThirdViewController.swift */,
+				C734DD241F6995BC004372D2 /* ForthViewController.swift */,
+				C734DDD81F6DBA76004372D2 /* FifthViewController.swift */,
 				C734DCF61F698573004372D2 /* Main.storyboard */,
 				C734DCF91F698573004372D2 /* Assets.xcassets */,
 				C734DCFB1F698573004372D2 /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C734DDD91F6DBA76004372D2 /* FifthViewController.swift in Sources */,
 				C734DCF51F698573004372D2 /* ViewController.swift in Sources */,
+				C734DD211F698649004372D2 /* secondViewController.swift in Sources */,
+				C734DD231F698F63004372D2 /* ThirdViewController.swift in Sources */,
 				C734DCF31F698573004372D2 /* AppDelegate.swift in Sources */,
+				C734DD251F6995BC004372D2 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +427,8 @@
 		C734DD181F698573004372D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QSOFA_new/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.QSOFA-new";
@@ -423,7 +440,8 @@
 		C734DD191F698573004372D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QSOFA_new/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.QSOFA-new";
@@ -505,6 +523,7 @@
 				C734DD191F698573004372D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C734DD1A1F698573004372D2 /* Build configuration list for PBXNativeTarget "QSOFA_newTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				C734DD1C1F698573004372D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C734DD1D1F698573004372D2 /* Build configuration list for PBXNativeTarget "QSOFA_newUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				C734DD1F1F698573004372D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
